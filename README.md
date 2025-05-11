@@ -23,18 +23,12 @@ Datasource: Alert-logs_MYSQL
 
 Query:
 
-sql
-Copy
-Edit
 SELECT DISTINCT alert 
 FROM alert_logs 
 ORDER BY alert;
 Step 2: Panel Query
 Paste the following query inside your panel to display alert data:
 
-sql
-Copy
-Edit
 SELECT 
   timestamp AS time, 
   mac_address AS MAC, 
