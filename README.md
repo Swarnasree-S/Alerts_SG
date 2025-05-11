@@ -20,7 +20,8 @@ Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI 
 
 (*********Datasource- Alert-logs_MYSQL )
 
-Step1:
+
+step2: Inside panel paste this query
 ---------------------------------------------
 
 
