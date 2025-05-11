@@ -1,7 +1,7 @@
-#H1Alert Explorer View
+#Alert Explorer View
 
 
-Step1:
+##Step1:
 Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI Dashboards Settings) 
 
 ---------------------------------------------
@@ -21,7 +21,7 @@ Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI 
 (*********Datasource- Alert-logs_MYSQL )
 
 
-step2: Inside panel paste this query
+##step2: Inside panel paste this query
 ---------------------------------------------
 
 
