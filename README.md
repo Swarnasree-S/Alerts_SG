@@ -1,3 +1,6 @@
+
+
+
 Step1:
 Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI Dashboards Settings)
 ---------------------------------------------
@@ -15,6 +18,8 @@ Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI 
 
 
 (*********Datasource- Alert-logs_MYSQL )
+
+
 Step2: Select Datasource as sql inside panel and paste this query
 
 SELECT
