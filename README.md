@@ -2,7 +2,8 @@ Alert Explorer View
 
 
 Step1:
-Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI Dashboards Settings)
+Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI Dashboards Settings) Select Datasource as sql inside panel and paste this query
+
 ---------------------------------------------
 
 
@@ -22,7 +23,7 @@ Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI 
 Step2:
 Variable's Declaration in Alert Explorer View (Variable's_Mapping in grafana UI Dashboards Settings)
 ---------------------------------------------
-Step2: Select Datasource as sql inside panel and paste this query
+
 
 SELECT
   timestamp AS time,
