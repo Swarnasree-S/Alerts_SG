@@ -16,19 +16,20 @@ _(Located under **Dashboard Settings → Variables Mapping** in Grafana UI)_
   FROM alert_logs 
   WHERE plant_name IN (${plant_name}) 
   ORDER BY alert_type;
+
+
 3. Alert
 Type: Query
 
 Datasource: Alert-logs_MYSQL
 
 Query:
-
 SELECT DISTINCT alert 
 FROM alert_logs 
 ORDER BY alert;
+
 Step 2: Panel Query
 Paste the following query inside your panel to display alert data:
-
 SELECT 
   timestamp AS time, 
   mac_address AS MAC, 
