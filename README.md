@@ -49,4 +49,5 @@ WHERE
   AND alert IN ($alert) 
   AND alert_type IN ($alert_type) 
 ORDER BY time DESC;
-```
+
+
