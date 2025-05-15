@@ -134,9 +134,7 @@ PRs welcome for additional alert types, Grafana templates, or database enhanceme
 - **Datasource:** `Alert-logs_MYSQL`  
 - **Query:**
   ```sql
-  SELECT DISTINCT alert 
-  FROM alert_logs 
-  ORDER BY alert;
+  SELECT DISTINCT alert FROM alert_logs WHERE plant_name IN (${plant_name}) AND alert_type IN (${alert_type}) ORDER BY alert;
   ```
 
 ---
