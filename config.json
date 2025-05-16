@@ -1,0 +1,14 @@
+{
+    "mqtt": {
+        "broker": "mqtt.renewgrid.in",
+        "port": 1883,
+        "username": "admin", 
+        "password": "password",
+        "topic": "test",
+        "client_id": "mqttx_68118ef4"
+    },
+    "whatsapp": {
+        "api_url": "https://api.textmebot.com/send.php",
+        "api_key": "y1GAMHKtWtgj"
+    }
+}
