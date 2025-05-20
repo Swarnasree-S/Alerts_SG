@@ -1,0 +1,26 @@
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy the requirements file into the container
+COPY requirements.txt .
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the Python script and configuration files
+COPY mqtt-whatsapp-publisher-json-config-parsing.py .
+COPY config.json .
+COPY customer_asset.json .
+
+# Install required Python packages
+RUN pip install paho-mqtt requests
+
+# Command to run the script
+CMD ["python", "mqtt-whatsapp-publisher-json-config-parsing.py"]
